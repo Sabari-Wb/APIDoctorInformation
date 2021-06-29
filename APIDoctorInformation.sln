@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIDoctorInformation", "APIDoctorInformation.csproj", "{7DFFEFB3-EDD3-44EC-A9FB-E1C698DAEDFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIDoctorInfoUnittest", "..\APIDoctorInfoUnittest\APIDoctorInfoUnittest.csproj", "{4846CE7D-0842-4971-80CD-44BE1CE7E93C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DFFEFB3-EDD3-44EC-A9FB-E1C698DAEDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFFEFB3-EDD3-44EC-A9FB-E1C698DAEDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFFEFB3-EDD3-44EC-A9FB-E1C698DAEDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFFEFB3-EDD3-44EC-A9FB-E1C698DAEDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4846CE7D-0842-4971-80CD-44BE1CE7E93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4846CE7D-0842-4971-80CD-44BE1CE7E93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4846CE7D-0842-4971-80CD-44BE1CE7E93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4846CE7D-0842-4971-80CD-44BE1CE7E93C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBF66D11-9F2B-40E1-8E72-2D262FEACD9C}
+	EndGlobalSection
+EndGlobal

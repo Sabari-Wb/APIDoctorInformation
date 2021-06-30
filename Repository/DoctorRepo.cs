@@ -1,5 +1,6 @@
 ﻿using APIDoctorInformation.Data;
 using APIDoctorInformation.Model;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -43,6 +44,7 @@ namespace APIDoctorInformation.Repository
 
         public List<Doctor> GetDoctorsdetails()
         {
+           
             return _doctorinfocontext.Doctors.ToList();
         }
 
@@ -53,5 +55,6 @@ namespace APIDoctorInformation.Repository
             _doctorinfocontext.SaveChanges();
             return p;
         }
+
     }
 }
